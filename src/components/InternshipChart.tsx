@@ -57,7 +57,7 @@ const InternshipChart = () => {
             {/* Internship Tracker Legend */}
             <div className='flex flex-col gap-1'>
                 <div className='w-5 h-5 bg-dashboardSky rounded-full'></div>
-                <h1 className='font-bond'>1 out of 5</h1>
+                <h1 className='font-bond'>3 out of 5</h1>
                 <h2 className='text-xs text-gray'>internships applied</h2>
             </div>
             

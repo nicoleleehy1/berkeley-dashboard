@@ -1,6 +1,7 @@
 import EventCalendar from "@/components/EventCalendar"
 import UserCard from "@/components/UserCard"
 import InternshipChart from "@/components/InternshipChart"
+import FinanceChart from "@/components/FinanceChart"
 
 const AdminPage = () => {
   return (
@@ -26,13 +27,14 @@ const AdminPage = () => {
           {/* ATTENDANCE CHART */}
           <div className="w-full lg:w-2/3 h-[450px]">
             
+            <FinanceChart />
           </div>
 
         </div>
 
         {/* BOTTOM CHARTS */}
         <div className="">
-
+          
         </div>
       </div>
       
