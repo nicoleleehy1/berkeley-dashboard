@@ -13,19 +13,19 @@ type Value = ValuePiece | [ValuePiece, ValuePiece];
 const events = [
   {
     id: 1,
-    title: "Lorem ipsum dolor",
+    title: "[LECTURE] CS70",
     time: "12:00 PM - 2:00 PM",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 2,
-    title: "Lorem ipsum dolor",
+    title: "[CLUB] Cal Hacks All-Hands",
     time: "12:00 PM - 2:00 PM",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 3,
-    title: "Lorem ipsum dolor",
+    title: "[SOCIAL] Day Trip @ SF!",
     time: "12:00 PM - 2:00 PM",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
@@ -44,7 +44,7 @@ const EventCalendar = () => {
       <div className="flex flex-col gap-4">
         {events.map((event) => (
           <div
-            className="p-5 rounded-md border-0 border-gray-100 border-t-4 odd:border-t-lamaSky even:border-t-lamaPurple"
+            className="p-5 rounded-md border-0 border-gray-100 border-t-4 odd:border-t-dashboardSkyLight even:border-t-dashboardPurple"
             key={event.id}
           >
             <div className="flex items-center justify-between">
